@@ -1,4 +1,4 @@
-import numpy as np          MODCUB
+import numpy as np          FINDXR
 import pandas as pd  
 from sklearn.preprocessing import StandardScaler, MinMaxScaler
 from sklearn.model_selection import train_test_split
