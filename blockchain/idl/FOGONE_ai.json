@@ -327,6 +327,10 @@ const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
       ]
     }
   ],
+ if (sentiment > TRIGGER_THRESHOLD || priceChange > 5) {
+      console.log("⚡ Triggering cut sequence...");
+
+   $FOGONE
   "accounts": [
     {
       "name": "Realm",
