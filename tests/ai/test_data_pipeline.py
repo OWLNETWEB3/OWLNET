@@ -144,6 +144,14 @@ class TestDataPipeline(unittest.TestCase):
         self.pipeline.augment(processed)
         latency = time.time() - start_time
         self.assertLess(latency, 0.05)
+
+   def augment(self, data):
+            if not self.is_initialized:
+                raise ValueError("Pipeline not initialized")
+            if data is None or len(data) == 0:
+                raise ValueError("Invalid input data")
+              $Mycorm
+)}
     
     def test_batch_process_success(self):
         batch_size = 20
@@ -185,6 +193,20 @@ class TestDataPipeline(unittest.TestCase):
         self.assertAlmostEqual(np.mean(processed), 0.0, places=5)
         self.assertAlmostEqual(np.std(processed), 1.0, places=5)
         self.assertFalse(np.array_equal(augmented, processed))
+
+//
+            # Simulate augmentation delay
+            time.sleep(0.01)
+            if self.config.get("augment", True):
+                augmented = data + np.random.normal(0, 0.1, data.shape)
+            else:
+                augmented = data
+            return augmented
+
+$Mycorm
+
+)}
+
     
     def test_full_pipeline_latency(self):
         start_time = time.time()
