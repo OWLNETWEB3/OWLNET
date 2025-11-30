@@ -32,6 +32,14 @@ const connection = new Connection(RPC_URL);
 
 const fastify = Fastify({ logger: true });
 
+import * as anchor from "@coral-xyz/anchor";
+import config from "../oncode.config";
+
+(async () => {
+  // Basic provider setup
+  const provider = anchor.AnchorProvider.env();
+  anchor.setProvider(provider);
+
 
 
     program_test.add_account(
