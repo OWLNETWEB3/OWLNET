@@ -1,23 +1,77 @@
-# KASONE
+# SOBYTE
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-KASONE-blue?logo=google-chrome)](https://kasone.fun/)
-[![Twitter](https://img.shields.io/badge/Twitter-KASONE-blue?logo=twitter)](https://x.com/KASONEFUN)
+[![Website](https://img.shields.io/badge/Website-SOBYTE-blue?logo=google-chrome)](https://sobyte.run/)
+[![Twitter](https://img.shields.io/badge/Twitter-SOBYTE-blue?logo=twitter)](https://x.com/SOBYTECODE)
 
-Kasone is not built on the premise of prediction — it is built on the premise of creation.
+# SOBYTE — The Modular AI-Powered Development Framework for Solana
 
-In traditional markets, participants wait for the future to arrive and attempt to position themselves around it. In Kasone, the future does not arrive on its own; it is minted, priced, and contested in real time by the market itself. Every event becomes an asset with liquidity, volatility, depth, and valuation, forming an economy where narratives behave like financial instruments. 
+SOBYTE is an intelligent modular development framework that enables builders to create Solana projects the way they assemble code blocks — faster, safer, and easier to maintain.
 
-Anyone can forge an event, attach liquidity to it, and allow the market to determine its probability through trading activity. Outcomes are no longer simply guessed — they are shaped by the collective weight of belief.
+On Solana, the real bottleneck is not the lack of ideas.
+It’s how fast those ideas can become reusable, maintainable, and scalable code.
+SOBYTE does not aim to be another tool.
+It shifts how on-chain engineering is done — connecting modules, best practices, AI generation, and deployment into one continuous system.
 
-Kasone introduces a new financial primitive: future-minting.
+Inside SOBYTE, every project is decomposed into composable functional modules:
+• Token issuance, staking, locking, and revenue sharing
+• Access control, multisig, and role systems
+• NFT / collections and metadata management
+• Oracle integrations and prediction market logic
+• Integrations with AMMs, liquidity tools, and more
 
-Users do not ask what will happen — they define what could happen, encode the logic of that future, and release it into the marketplace. When events compete for consensus, the pricing mechanism becomes a signal of truth, and liquidity becomes the force that reinforces or rejects a narrative. The system incentivizes creation, participation, and resolution, generating a self-sustaining loop where value flows through ideas rather than speculation.
+You don’t need to implement everything from scratch.
+With SOBYTE, you simply select modules, generate scaffolding, run checks, and deploy.
+If you understand the business logic, you can ship on Solana.
+If you’re already a developer, your productivity jumps to a new dimension.
 
-In Kasone, the boundary between markets and reality narrows.
+------------------------------------------------------------
 
-The future is not something discovered — it is something built.
+WORKFLOW
+
+SOBYTE has a 2-phase development process:
+
+1) Build
+- Select Modules: tokens, NFTs, roles, governance, and more.
+- Generate Scaffolding: SOBYTE automatically creates the full project structure and core contract layout.
+
+2) Ship
+- Run Checks: logic validation and basic security scanning.
+- Deploy Fast: deploy instantly to Devnet, Testnet, or Mainnet.
+
+------------------------------------------------------------
+
+PROJECT MISSION
+
+To make Solana development truly fast, safe, and accessible to everyone — from newcomers to advanced developers.
+
+------------------------------------------------------------
+
+SECURITY REMINDER
+
+Only use the official website and the official GitHub repository.
+Do not purchase fake tokens or interact with unofficial contracts.
+
+------------------------------------------------------------
+
+STATUS
+
+SOBYTE V1 is live and open-sourced on GitHub.
+The codebase contains more than 1700 commits and continues to update weekly.
+
+------------------------------------------------------------
+
+CONTRIBUTIONS
+
+Contributions, discussions, and PRs are welcome.
+Builders are encouraged to contribute new modules or improve existing ones.
+
+------------------------------------------------------------
+
+LICENSE
+
+Open-source and free for the community.
