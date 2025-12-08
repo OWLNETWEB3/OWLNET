@@ -2,7 +2,7 @@
   "version": "0.1.0",
   "name": "SBFBOT_ai", 
   "instructions": [
-    {
+    { 
       "name": "initializeRealm",
       "docs": [
         "Initializes a new governance realm for SBFBOT with specified parameters.",
