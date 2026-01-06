@@ -1,3 +1,5 @@
+![1500x500](https://github.com/user-attachments/assets/544a42af-c382-4bf3-99ed-8a31e2ed0d07)
+
 # DigimonGotchi
 
 <p align="center">
