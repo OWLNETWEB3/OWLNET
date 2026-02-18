@@ -93,6 +93,18 @@ const ok = await verifyPaymentOnSolana(connection, body);
   });
 });
 
+// If using Anchor, ensure IDL generation is triggered
+    if env::var("CARGO_FEATURE_IDL_BUILD").is_ok() {
+        println!("cargo:warning=Generating Anchor IDL...");
+        let idl_gen_status = Command::new("anchor")
+            .arg("idl")
+            .arg("init")
+            .arg("--filepath")
+            .arg("target/idl/ontora_ai.json")
+            .status()
+            .expect("Failed to run anchor idl init");
+// HHH
+
     // 
     if command -v "\$1" &> /dev/null; then
         log_message "\$1 is installed. Version: $(\$1 --version || \$1 -v || echo 'unknown')"
